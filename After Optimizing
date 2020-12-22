@@ -6,6 +6,8 @@ public class DollarFigure2 {
     // some of the loops
 
     public static void main (String[] args) {
+        // my next goal would be to make this code
+        // more readable
         for (int i = 1; i <= SIZE; i++) {
             efficient((2 * i - 2), "*");
             efficient((-1 * i + (SIZE + 1)), "$");
